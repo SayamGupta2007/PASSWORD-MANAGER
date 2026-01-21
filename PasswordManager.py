@@ -7,7 +7,7 @@ File = "passwords.json"
 
 if not os.path.exists(File):
     with open(File, "w") as f:
-        json.dump({}. f)
+        json.dump({}, f)
 
 with open(File, "r") as f:
     data = json.load(f)
